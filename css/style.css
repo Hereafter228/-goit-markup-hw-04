@@ -118,9 +118,11 @@ background-color:#FFFFFF;
     color:#404bbf;
 }
 .logo-fon {
-    background-color: #2e2f42;
+    background: #2e2f42;
     padding: 188px 0;
-
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .first-item-logo{
     color: #2e2f42;
