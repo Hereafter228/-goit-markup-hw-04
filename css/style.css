@@ -191,22 +191,27 @@ color: #404bbf;
          align-items:center;
         
 }
-.second-icon-svg{
-    display: flex;
-    fill: #f4f4fd;
-    justify-content: center;
-        align-items: center;
+
     
-}
+
 .second-icon-bg{
     background-color:#4d5ae5;
     display: flex;
     border-radius: 100%;
     width: 40px;
         height: 40px;
+        
+            fill: #f4f4fd;
+            justify-content: center;
+            align-items: center;
+            
 }
 .second-icon-flex{
     display: flex;
+    gap: 24px;
+    margin-left: 16px;
+    margin-top: 8px;
+    margin-right: 16px;
 }
 .svg-flex-item-first{
     justify-content: center;
@@ -373,6 +378,17 @@ margin-bottom: 8px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #f4f4fd;}
+.media-footer-style{
+        font-weight: 500;
+        font-size: 16px;
+     line-height: 24px; 
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #fff;
+        text-align: center;
+        display: block;
+       
+}
 footer{
     display: block;
         padding: 100px, 1020px, 100px, 156px;
