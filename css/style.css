@@ -180,13 +180,19 @@ color: #404bbf;
 
 }
 .first-icon-svg{
-    display: block;
+    display: flex;
     background: #f4f4fd;
     border: 1px solid #8e8f99;
         border-radius: 4px;
         width: 264px;
         height: 112px;
+        display: flex;
+         justify-content:center;
+         align-items:center;
         
+}
+.second-icon-svg{
+    fill: #4d5ae5;
 }
 .svg-flex-item-first{
     justify-content: center;
