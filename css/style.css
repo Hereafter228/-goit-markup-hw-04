@@ -192,7 +192,21 @@ color: #404bbf;
         
 }
 .second-icon-svg{
-    fill: #4d5ae5;
+    display: flex;
+    fill: #f4f4fd;
+    justify-content: center;
+        align-items: center;
+    
+}
+.second-icon-bg{
+    background-color:#4d5ae5;
+    display: flex;
+    border-radius: 100%;
+    width: 40px;
+        height: 40px;
+}
+.second-icon-flex{
+    display: flex;
 }
 .svg-flex-item-first{
     justify-content: center;
