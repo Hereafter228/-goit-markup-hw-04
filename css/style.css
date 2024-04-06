@@ -120,7 +120,8 @@ background-color:#FFFFFF;
 .logo-fon {
     background: #2e2f42;
     padding: 188px 0;
-    background-image: url(../img/bg.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),url(../images/bg.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -178,7 +179,19 @@ color: #404bbf;
     background-color: #404BBF;
 
 }
-
+.first-icon-svg{
+    display: block;
+    background: #f4f4fd;
+    border: 1px solid #8e8f99;
+        border-radius: 4px;
+        width: 264px;
+        height: 112px;
+        
+}
+.svg-flex-item-first{
+    justify-content: center;
+  
+}
 .business-logo-q{font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
