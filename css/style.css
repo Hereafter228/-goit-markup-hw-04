@@ -206,6 +206,17 @@ color: #404bbf;
             align-items: center;
             
 }
+.icon-h-bg{
+    background-color: #4d5ae5;
+        display: flex;
+        border-radius: 100%;
+        width: 40px;
+        height: 40px;
+    
+        fill: #f4f4fd;
+        justify-content: center;
+        align-items: center;
+}
 .second-icon-flex{
     display: flex;
     gap: 24px;
